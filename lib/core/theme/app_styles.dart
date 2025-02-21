@@ -8,6 +8,16 @@ class AppStyles {
     fontSize: 30.sp,
     fontWeight: FontWeight.bold,
   );
+  static TextStyle style24blueBold = TextStyle(
+    color: AppColors.primaryColor,
+    fontSize: 24.sp,
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle style12blueBold = TextStyle(
+    color: AppColors.primaryColor,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w400,
+  );
   static TextStyle style20blackBold = TextStyle(
     color: AppColors.blackColor,
     fontSize: 20.sp,
@@ -18,8 +28,17 @@ class AppStyles {
     fontSize: 16.sp,
     fontWeight: FontWeight.w600,
   );
+  static TextStyle style16black = TextStyle(
+    color: AppColors.blackColor,
+    fontSize: 16.sp,
+  );
   static TextStyle style14grey = TextStyle(
     color: AppColors.textGreyColor,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static TextStyle style14black = TextStyle(
+    color: AppColors.blackColor,
     fontSize: 14.sp,
     fontWeight: FontWeight.w400,
   );
